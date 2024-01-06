@@ -1,7 +1,11 @@
 .crew-body{
     background-image: url(../images/crew-page-desktop-bg-img.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 125%;
+}
+
+.c-container{
+    padding-right: 165px;
 }
 
 .c-site-header{
@@ -9,3 +13,88 @@
     overflow: hidden;
 } 
 
+.c-commander-section{
+    margin-top: 76px;
+}
+
+.c-commander{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.c-commander-content-span{
+    width: 286px;
+    margin-bottom: 154px;
+    display: inline-block;
+    color: #FFF;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 4.725px;
+    text-transform: uppercase;
+}
+
+.c-commander-content-span-in{
+    opacity: 0.25;
+} 
+
+.c-commander-context{
+    width: 488px;
+    margin-bottom: 120px;
+    text-align: start;
+}
+
+.c-commander-context-span{
+    color: #FFF;
+    font-family: "Bellefair", serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    opacity: 0.5042;
+}
+
+.c-commander-context-title{
+    margin: 15px 0 27px 0;
+    color: #FFF;
+    font-family: "Bellefair", serif;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.c-commander-context-text{
+    color: #D0D6F9;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.c-commander-circle-wrap{
+    width: 132px;
+    padding-bottom: 94px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.c-commander-circle{
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background-color: #ffffff;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    opacity: 17.44%;
+    transition: all 0.4s linear;
+}
+
+.c-commander-circle:hover{
+    opacity: 1;
+}

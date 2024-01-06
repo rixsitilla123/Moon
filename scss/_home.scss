@@ -1,7 +1,7 @@
 .home-body {
     background-image: url(../images/home-page-desktop-bg-img.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 115%;
 }
 
 .h-site-header{
@@ -11,11 +11,12 @@
 
 .hero-section{
     padding-top: 251px;
+    padding-bottom: 131px;
 }
 
 .hero{
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: space-between;
 }
 

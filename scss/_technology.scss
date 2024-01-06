@@ -1,7 +1,7 @@
 .technology-body {
     background-image: url(../images/technology-page-desktop-bg-img.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 111%;
 }
 
 .t-site-header{
@@ -17,14 +17,13 @@
 }
 
 .header-logo-link {
-    margin-left: 55px;
     display: inline-block;
 }
 
 .header-line{
-    width: 170px;
+    width: 210px;
     position: absolute;
-    left: 145px;
+    left: 100px;
     z-index: 2;
 }
 
@@ -91,6 +90,7 @@
 
 .t-hero-section {
     margin-left: 166px;
+    padding-bottom: 112px;
     overflow: hidden;
 }
 
